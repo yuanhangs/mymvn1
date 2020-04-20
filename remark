@@ -1,0 +1,25 @@
+DOM4j的使用大量的接口如下：
+    Document：定义XML文档
+
+     Element  定义XML元素
+             getRootElement(); 根节点
+             List elements();  获得多个元素
+             String attributeValue(String var1); 获得属性值
+             String elementTextTrim(String var1); 获得元素值
+
+             Element addAttribute(String var1, String var2); 添加属性值
+             Element addText(String var1); 添加元素值
+             Element element(String var1); 元素名称
+             Attribute attribute(String var1); 获取属性
+
+
+    Branch分支: 指能够包含子节点的节点
+              Element addElement(String var1);  添加元素
+
+    Node 节点
+          void setText(String var1); 设置文本值
+
+
+   Attribute：属性
+           void setValue(String var1); 设置属性值;
+
